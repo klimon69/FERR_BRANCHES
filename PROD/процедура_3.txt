@@ -1,0 +1,7 @@
+UPDATE t
+	   SET DATE = GETDATE(),
+		   
+	  FROM TABLE t
+	 INNER JOIN 
+		   Deleted d 
+		ON t.LICENSE_TYPE = d.LICENSE_TYPE

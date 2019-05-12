@@ -1,0 +1,4 @@
+this.txt_Code.value = dt.Rows[0].ToString();
+    
+    
+                          
